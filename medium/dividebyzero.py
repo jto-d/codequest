@@ -20,8 +20,8 @@ def divide(lst):
 
     div = lst[0]/lst[1]
 
-    if str(div).split('.')[1]=='0':
-        return (int(div))
+    # if str(div).split('.')[1]=='0':
+    #     return (int(div))
     return div
 
     
