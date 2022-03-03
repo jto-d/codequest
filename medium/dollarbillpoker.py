@@ -1,5 +1,7 @@
 import sys
 
+# correct
+
 cases = int(sys.stdin.readline().rstrip())
 
 def checkStraight(lst):

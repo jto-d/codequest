@@ -1,5 +1,6 @@
 import sys
-import math
+
+# correct
 
 cases = int(sys.stdin.readline().rstrip())
 
