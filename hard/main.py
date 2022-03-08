@@ -7,7 +7,7 @@ def func(num: str, ite: int, lst: list):
     split = num.split('.')
     right = split[1]
 
-    if ite == 9:
+    if ite == 9 or right[0:4 ]:
         lst.append(str(split[0]))
         return lst
 
